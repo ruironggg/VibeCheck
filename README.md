@@ -5,7 +5,7 @@
 1. `conda env export --no-build -f environment.yml`, this way environment.yml works for any Operating System
 
 ## Updating requirements.txt
-1. `pip freeze > requirements.txt`
+1. `pip list --format=freeze > requirements.txt`
 
 ## Create venv using pip
 ````
