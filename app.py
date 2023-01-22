@@ -578,7 +578,7 @@ Sentiment: *{top_sentiment.title()} * ({scores[0]*100: .2f}%)'''
 
     except Exception as e:
         print(f"Error: {e}")
-        util.private_message(client, channel_id, f"{e}")
+        # util.private_message(client, channel_id, f"{e}")
 
 
 if __name__ == "__main__":
