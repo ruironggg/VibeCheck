@@ -15,7 +15,7 @@ VibeCheck has 3 core features:
 ![Sentiment Analysis And Prompt](assets/images/sentiment-analysis-and-prompt.png)
 2. Give recommendations on how to respond in the scenario where mentees seem to be expressing negative sentiments
 3. Provide an analysis of results to the mentor at the end of each week
-![Wordcloud](assets/images/wordcloud.png)
+![Wordcloud](assets/images/visualisation-of-results.png)
 
 ## How we built it
 We used Hugging Face's transformers to perform sentiment analysis on the messages from mentees, allowing mentors to better understand the emotional and mental state of mentees at a quick glance. 
