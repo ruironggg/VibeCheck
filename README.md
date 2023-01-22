@@ -47,6 +47,12 @@ We initially wanted to integrate with Microsoft Teams until we realized just how
 
 1. The sheer potential of transformers
 2. Digital solutions can be used as tools to encourage better work culture
+3. The importance of delegating work
+4. A deeper understanding of how remote work has impacted work culture adversely
+5. How to build a Slack Bot using Python
+6. How to use Flask
+7. How to use MongoDB
+8. The applications of `zero-shot-classification` models
 
 ## What's next for VibeCheck (Future Work)
 
