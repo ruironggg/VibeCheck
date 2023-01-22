@@ -5,3 +5,8 @@
 /.idea/.gitignore
 /venv/
 /VibeCheck/
+.env
+.ipynb_checkpoints/
+__pycache__/
+test.py
+wordcloud.png
