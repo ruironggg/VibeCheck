@@ -17,6 +17,18 @@ VibeCheck has 3 core features:
 3. Provide an analysis of results to the mentor at the end of each week
 ![Wordcloud](assets/images/visualisation-of-results.png)
 
+### Bonus feature
+Additionally, our bot enables you to customise your classification labels according to your needs.
+
+**New label**
+
+![New Label](assets/images/new-label.png)
+
+**Classifying by new label**
+
+![New Label Results](assets/images/new-label-results.png)
+
+
 ## How we built it
 We used Hugging Face's transformers to perform sentiment analysis on the messages from mentees, allowing mentors to better understand the emotional and mental state of mentees at a quick glance. 
 We chose Flask as our backend as most of the installed libraries were designed for easy integration with Python.
