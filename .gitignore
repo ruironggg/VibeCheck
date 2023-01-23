@@ -11,3 +11,6 @@ __pycache__/
 test.py
 test.md
 wordcloud.png
+.DS_Store
+VibeCheck logo-two.png
+VibeCheck logo.png

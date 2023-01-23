@@ -1,5 +1,8 @@
 # VibeCheck
 
+## Credits
+This repository would not have been possible without [@justintanyf](https://github.com/justintanyf), [@ruironggg](https://github.com/ruironggg), and [@seancze](https://github.com/seancze)
+
 ## Inspiration
 Do you feel that your managers sometimes just don't get you?
 
@@ -28,7 +31,34 @@ Additionally, our bot enables you to customise your classification labels accord
 
 ![New Label Results](assets/images/new-label-results.png)
 
+## How to deploy
+1. `pip install -r requirements.txt`
+2. Create your own Slack Bot by following the instructions [here](https://slack.com/help/articles/115005265703-Create-a-bot-for-your-workspace)
+3. Create a `.env` file with the following environment variables
+   1. `MONGO_URL` = Connection string to mongodb
+   2. `MONGO_DB`= Name of your database
+   3. `SLACK_BOT_TOKEN`
+   4. `SLACK_SIGNING_SECRET`
+   5. `OPENAI_API_KEY`
+4. Install ngrok
+5. Start an ngrok server pointing to port 8000 via `ngrok http 8000`
+6. Point your Slack Bot towards the URL provided to you by ngrok
+7. Deploy the bot via `python app.py`
 
+## Create venv using pip
+````
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+````
+
+
+## Create conda enviroment
+`conda env create -f environment.yml`
+
+
+## How to run
+run using `flask run`, it runs on port 5000
 ## How we built it
 We used Hugging Face's transformers to perform sentiment analysis on the messages from mentees, allowing mentors to better understand the emotional and mental state of mentees at a quick glance. 
 We chose Flask as our backend as most of the installed libraries were designed for easy integration with Python.
