@@ -1,6 +1,6 @@
 # VibeCheck
 
-# Please check out this [website](https://devpost.com/software/vibecheck-5c2kz8) of our project
+Please check out this [website](https://devpost.com/software/vibecheck-5c2kz8) of our project
 
 ## Credits
 This repository would not have been possible without [@justintanyf](https://github.com/justintanyf), [@ruironggg](https://github.com/ruironggg), and [@seancze](https://github.com/seancze)
